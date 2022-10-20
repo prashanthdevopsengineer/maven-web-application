@@ -23,7 +23,7 @@ stages{
 
   stage('CheckOutCode'){
     steps{
-    git branch: 'master', credentialsId: '957b543e-6f77-4cef-9aec-82e9b0230975', url: 'https://github.com/MithunTechnologiesDevOps/maven-web-application.git'
+    git branch: 'master', credentialsId: '4e16d88c-4dfc-43c9-9452-379540e48bc6', url: 'https://github.com/prashanthdevopsengineer/jenkins-with-ansible.git'
 	
 	}
   }
